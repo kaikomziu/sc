@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Scratch TurboWarp ボタン",
+  "version": "1.0.0",
+  "description": "Scratchのプロジェクトページに「TurboWarpで開く」ボタンを追加します",
+  "content_scripts": [
+    {
+      "matches": ["https://scratch.mit.edu/projects/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
