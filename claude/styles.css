@@ -1,0 +1,23 @@
+.turbowarp-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  padding: 0 16px;
+  height: 40px;
+  background-color: #ff6680;
+  color: #fff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 4px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.turbowarp-btn:hover {
+  background-color: #e6405a;
+  color: #fff;
+}
